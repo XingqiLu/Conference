@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=a4, fontsize=12pt, ]{scrartcl} % A4 paper and 11pt font size
+
+\usepackage[protrusion=true,expansion=true]{microtype}	
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+\usepackage{xcolor}
+\usepackage{fix-cm}
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+\usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm} % Math packages
+\usepackage{mathtools} % http://ctan.org/pkg/mathtools
+\usepackage{etoolbox} % http://ctan.org/pkg/etoolbox
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{units} % To use \nicefabc
+\usepackage{tikz} % To draw
+\usepackage{sectsty} % Allows customizing section commands
+\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+\usepackage{fancyhdr} % Custom headers and footers
+\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+\fancyfoot[L]{} % Empty left footer
+\fancyfoot[C]{} % Empty center footer
+\fancyfoot[R]{\thepage} % Page numbering for right footer
+\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs - comment this line for an assignment with lots of text
+\setlength{\oddsidemargin}{0mm}					% Adjusting margins to center the colorbox, ...
+\setlength{\evensidemargin}{0mm}					% ... you might want to change these
+
+
+% ------------------------------------------------------------------------------
+% Definitions (do not change this)
+% ------------------------------------------------------------------------------
+\newcommand{\HRule}[1]{\hfill \rule{0.2\linewidth}{#1}} 	% Horizontal rule
+
+\definecolor{grey}{rgb}{0.9,0.9,0.9}
+
+\makeatletter							% Title
+\def\printtitle{%						
+    {\centering \@title\par}}
+\makeatother									
+
+\makeatletter							% Author
+\def\printauthor{%					
+    {\centering \large \@author}}				
+\makeatother							
+
+% ------------------------------------------------------------------------------
+% Metadata (Change this)
+% ------------------------------------------------------------------------------
+\title{	\fontsize{50}{60}\selectfont
+			\vspace*{0.4cm}
+			\hfill Ergonomic 	\\[0.1cm]
+			\hfill Chair        \\[0.1cm]
+            \hfill Design%
+		}
+
+\author{
+		\hfill Xingqi Lu\\	
+		\hfill Sarah Lawrence College\\	
+		\hfill Professor:Anthony Schultz\\
+}
+
+\linespread{2}
+\begin{document}
+
+\maketitle % Print the title
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Human Body Ergonomics}
+  The spinal cord consists of 33 vertebra with 26 bones, and is classified into five sections. Starting from the top (superior) in Fig. 1.1, there are seven cervical, twelve thoracic, and five lumbar vertebra, and then five fused vertebra in the sacrum and four fused vertebra in the coccyx (tail bone). Note the spinal nerve root (pain region) and the spinous processes. The distinct vertebrae become successively larger down the spinal cord, because of the additional load they bear. This combination of vertebrae and intervertebral discs provides flexibility in the spinal cord, but also causes potential problems.
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{VerteC}$$
+\begin{footnotesize}
+Figure 1.1. The Vertebral column (spine). The thoracic and sacral curves are primary curves, while the cervical and lumbar curves are secondary curves
+\end{footnotesize}
+
+\vspace{1 cm}
+  The spinal cord is not straight; each section is curved. At birth, only the thoracic and sacral curves are developed/ These primary curves are in the same direction and lead to the "fetal position." At three months, the cervical curve develops, so the baby can hold his/her head up. When the baby learns to stand and walk, the lumbar curve develops. These secondary curves have curvature opposite to that of the primary curves. Figure 1.2 shows the lumbosacral angle between the fifth lumbar vertebra and the sacrum. Deviations in the angle from around 30 degree can lead to lower back pain. The spinal cord could be modelled as a rigid bar even though this description of the spinal cord curves would suggest a more complex model.
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{LumAng}$$
+\begin{footnotesize}
+Figure 1.2. The lumbosacral angle is defined as that between the horizontal and the top surface of the sacrum.
+\end{footnotesize}
+%----------------------------------------------------------------------------------------
+%	Section 2
+%----------------------------------------------------------------------------------------
+\section{Office Chair Ergonomics}
+
+  Since human body is so sophisticated, elaborated office chairs were required in workstations. However, one's body differs from others', adjustment of seat pan, backrest and other parts is often required. And here's data in normal range:
+\\
+  Recommended approximate height adjustment ranges for office furniture in Europe or North America are as follows:
+Seat pan above the floor: 37-51 cm, better up to 58cm\\
+Support surface for keyboard, mouse, etc. : 53-70 cm\\
+Surface of worktables: 53-72 cm\\
+Desk surface: 53-72cm\\
+Support for the display: 53-90 cm\\
+These ranges should make the office furniture fit practically everybody, tall or short.
+\\
+
+  In seated posture, the chair is, by definition, critical. For any work situation in which sitting is involved, the chair represents the primary support system which puts the user in contact with the workstation. This support function is even more important for those tasks, increasingly characteristic of modern workplaces, which require precise coupling of hands and tools and high degrees of visual attention for prolonged periods of time. A large proportion of such tasks, of course, include those involving video display terminals.
+
+\subsection{Backrest and Lumbar Support}
+  It has typically been assumed that providing a padded surface in the lumbar region will function to restore the lumbar lordosis while the trunk is erect. However, this assumption requires that the trunk remain in close contact with the lumbar pad, and that the pad is properly adjusted so it is, in fact, adjacent to the user's lumbar spine. Hence, the lumbar pad must be height adjustable - either independently, or as part of an adjustable backrest to accommodate anthropometric variability in lumbar height. Data - lumbar height of 5th percentile female and 95th percentile males, from means and standard deviations, yields a range of 2.2 to 37.3 cm above seat pan height.
+\\
+  A wide backrest may interfere with tasks which require lateral movement of arms and shoulders. Thus, the possibility of a narrower backrest which still provides vertical support to the trunk should be considered.
+\subsection{Seat Pan}
+  ANSI-HFES 100/1998 (Human Factor Engineering of Computer Workstations) specifies that the depth of the seat pan be between 38 and 43 cm. This is based on the anthropometric dimension buttock-popliteal length. It is recognized that a seat pan which is too long for a small person (e.g., 5th percentile female) would interfere with seated posture, whereas a seat pan which is too short for a large person (e.g., 95th percentile male) would not provide adequate support.From the Gordon et al. (1988) survey, the 5th to 95th percentile range from buttock-popliteal length is 44.0 to 54.5 cm. In addition, it is recommended that the front of the seat pan be rounded in order to avoid pressure gradients on the underside of the thigh.
+\\
+  Most work chairs are designed on a "middle-out" model of anthropometrics intended to accommodate the middle 95 percent of the user population: from the 5th-percentile female to the
+95th-percentile male. However, as British ergonomist Stephen Pheasant points out, there is no true 5th- or 95th-percentile person; someone who is at the 95th percentile for stature is likely to be at a different percentile on distribution curves for lower leg length or sitting elbow height. So a chair designed to accommodate the middle 95 percent on each of a succession of important dimensions could conceivably exclude a different 5 percent of users with each anthropometric constraint. The end result would be a chair that accommodates considerably less than 95 percent of its potential users.
+\\
+And here's a measurement of anthropometric data from Herman Miller Company.
+Using a measuring device they developed to gather their own anthropometric data, they took seven important measurements:
+• popliteal height (lower leg length)
+• seat depth (buttock to popliteal length)
+• hip breadth
+• midshoulder sitting height (back height)
+• elbow height
+• lumbar height
+• lumbar depth
+Of the 778 people they measured (Dowell, 1995a), the 5th to 95th range excluded 11 percent for popliteal height, 7.5 percent for buttock-to-popliteal length, 15 percent for elbow height, and 7 percent for lumbar height. Taken all together, almost one-third
+of their sample had at least one dimension out of four that was either smaller than the 5th-percentile female or larger than the 95th-percentile male.
+\subsection{Pressure Distribution}
+Surface pressure can cause discomfort while sitting. People of different body weights and builds distribute their weight on a chair in similar patterns, but pressure intensity and areas of distribution vary from person to person. Good pressure distribution in a chair focuses peak pressure under the sitting bones in upright postures and in the lumbar and thoracic areas in reclined postures
+\\
+Correct pressure distribution is critical to seated comfort. A high level of surface pressure can constrict blood vessels in underlying tissues, restricting blood flow, which the sitter experiences as discomfort.
+\\
+And following figures are a contrast of pressure distribution of good chairs and a bad ones.
+\\
+Pressure mapping shows how seated body pressure is distributed. Red indicates peak pressure areas; orange, yellow, green, blue, and purple indicate decreasing pressure areas.
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{GPDis}$$
+\begin{footnotesize}
+figure 2.1. Good pressure distribution in a chair focuses peak pressure under the sitting bones in upright postures and in the lumbar and thoracic areas in reclined postures.
+\end{footnotesize}
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{BPDis}$$
+\begin{footnotesize}
+figure 2.2. Sitting in a sling-type chair puts pressure on the gluteus maximus muscles at the sides of the buttocks as well as on the heads of the femur bones and sciatic nerves.
+\end{footnotesize}
+
+\subsection{Seat Posture}
+For the purposes of studying the seated human body at work, ergonomists have identified three postures based on the location of the body’s center of mass: reclining, upright, and forward leaning.
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{StPos}$$
+\begin{footnotesize}
+figure 2.3. Typical seated postures(L to R): reclining, upright, forward leaning
+\end{footnotesize}
+people are spending a smaller percentage of time in the reclined postures that were traditionally preferred for activities such as telephoning, reading from hard copy, conversation, and even continuous keyboarding. The "Office Seating Behaviors" study found that people performing computer-related tasks used upright or forward-leaning postures nearly 75 percent of the time.
+
+%----------------------------------------------------------------------------------------
+%	Section 3
+%----------------------------------------------------------------------------------------
+
+\section{Chair Examples}
+In this section one normal office chair and an ergonomic office are picked out to make a comparison.
+\subsection{normal office chair}
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{Onyx}$$
+\begin{footnotesize}
+figure 3.1. The Onyx Office Chair
+\end{footnotesize}
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{OnyxDes}$$
+\begin{footnotesize}
+figure 3.2. The Dimension Diagram for Onyx
+\end{footnotesize}
+
+\subsection{ergonomic office chair}
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{Aeron}$$
+\begin{footnotesize}
+figure 3. 3. The Aeron Chair
+\end{footnotesize}
+\vspace{1 cm}
+$$\includegraphics[width=10cm]{AeDes}$$
+\begin{footnotesize}
+figure 3. 4. The Dimension Diagram for Aeron
+\end{footnotesize}
+\\
+
+\begin{thebibliography}{9}
+\bibitem{Irving2007}
+Irving P Herman
+\textit{Physics of the Human Body}.
+Springer, Berlin; New York, 2007.
+
+\bibitem{KH}
+K H E Kroemer; Anne D kroemer
+\textit{Office Ergonomics}.
+Taylor \& Francis , London; New York, 2001.
+
+\bibitem{Waldemar}
+Waldemar Karwowski; William S Marras
+\textit{Occupational Ergonomics: Design and Maagement of Work Systems}
+CRC Press, Boca Raton, 2003
+
+\end{thebibliography}
+
+
+\end{document} 
